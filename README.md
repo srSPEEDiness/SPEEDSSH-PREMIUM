@@ -1,8 +1,11 @@
 # SSHPLUS
 
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/carecagm/SSHPLUS/main/Plus && chmod 777 Plus && ./Plus
+```
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/srSPEEDiness/SPEEDSSH-PREMIUM/main/Plus-ssh && chmod 777 Plus-ssh && ./Plus-ssh
+```
 
+# Acessa Root
 
-#Acessa Root
-
-wget https://raw.githubusercontent.com/carecagm/SSHPLUS/main/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
+```
+wget https://raw.githubusercontent.com/srSPEEDiness/SPEEDSSH-PREMIUM/main/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
+```
