@@ -1,7 +1,7 @@
-# SSHPLUS
+# SSHPremium
 
 ```
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/srSPEEDiness/SPEEDSSH-PREMIUM/main/Plus-ssh && chmod 777 Plus-ssh && ./Plus-ssh
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/srSPEEDiness/SPEEDSSH-PREMIUM/main/Premium-ssh && chmod 777 Premium-ssh && ./Premium-ssh
 ```
 
 # Acessa Root
