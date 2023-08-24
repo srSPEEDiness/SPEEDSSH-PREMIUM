@@ -1,7 +1,6 @@
 #!/bin/bash
 [[ $(screen -list| grep -c 'bot_teste') == '0' ]] && {
     clear
-figlet 'ANDRE BOT TESTE' | boxes -d stone -p a0v0 | lolcat
     echo -e "\E[44;1;37m     ATIVACÃO BOT SSH TESTE     \E[0m"
     echo ""
     echo -ne "\n\033[1;32mINFORME O TOKEN\033[1;37m: "
@@ -38,7 +37,7 @@ figlet 'ANDRE BOT TESTE' | boxes -d stone -p a0v0 | lolcat
     echo -e "\033[1;32mINICIANDO BOT TESTE \033[0m\n"
     cd $HOME/BOT
     rm -rf $HOME/BOT/botssh
-    wget https://www.dropbox.com/s/a7i10qa2j1dzri0/botssh >/dev/null 2>&1
+    wget https://www.dropbox.com/s/7b2wrkv3hm4iiki/botssh >/dev/null 2>&1
     chmod 777 botssh
     echo ""
     sleep 1

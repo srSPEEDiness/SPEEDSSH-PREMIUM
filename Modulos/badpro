@@ -1,7 +1,6 @@
 #!/bin/bash
 fun_badvpn() {
     clear
-figlet 'ANDRE BADVPN PRO' | boxes -d stone -p a0v0 | lolcat
     echo -e "\E[44;1;37m            INSTALAÇÃO BADVPN PRO            \E[0m"
     echo ""
     if ps x | grep -w udpvpn | grep -v grep 1>/dev/null 2>/dev/null; then

@@ -5,11 +5,10 @@ menu ()
 while true $x != "teste"
 do
 clear
-figlet 'BADVPN PRO' | boxes -d stone -p a0v0 | lolcat
 echo -e "\E[44;1;37m            GERENCIAR BADVPN-UDP (PRO)            \E[0m"
     echo ""
     echo -e "\033[1;31m[\033[1;36m01\033[1;31m] \033[1;37m• \033[1;33mINSTALAR BADVPN(7300 PADRÃO) $var_sks1 \033[0m"
-    echo -e "\033[1;31m[\033[1;36m02\033[1;31m] \033[1;37m• \033[1;33mATIVAR BADVPN(7295) $var_sks1 \033[0m"
+    echo -e "\033[1;31m[\033[1;36m02\033[1;31m] \033[1;37m• \033[1;33mINSTALAR BADVPN ARM(7300 PADRÃO) $var_sks1 \033[0m"
     echo -e "\033[1;31m[\033[1;36m03\033[1;31m] \033[1;37m• \033[1;33mATIVAR BADVPN(7296) $var_sks1 \033[0m"
     echo -e "\033[1;31m[\033[1;36m04\033[1;31m] \033[1;37m• \033[1;33mATIVAR BADVPN(7297) $var_sks1 \033[0m"
     echo -e "\033[1;31m[\033[1;36m05\033[1;31m] \033[1;37m• \033[1;33mATIVAR BADVPN(7298) $var_sks1 \033[0m"
@@ -33,11 +32,10 @@ case "$x" in
 echo "================================================"
 ;;
     2)
-echo -e "\033[1;32mINICIANDO BADVPN PRO... \033[0m\n"
-      screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7295 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
-      sleep 3
-echo -e "\033[1;32mPORTA BADVPN PRO ATIVADO COM SUCESSO\033[1;33m"
-sleep 4
+install dos2unix -y /dev/null
+wget https://raw.githubusercontent.com/KDUIVGUVIVIRT/F/main/F2/badvpn/badvpn.sh /dev/null
+chmod 777 badvpn.sh
+./badvpn.sh
 echo "================================================"
 ;;
    3)
